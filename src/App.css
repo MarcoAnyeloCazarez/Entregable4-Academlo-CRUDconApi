@@ -1,0 +1,110 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.usersForm{
+  align-items: center;
+  /* border: solid 1px red; */
+  width: 40%;
+}
+
+
+.usersForm p{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin: 0 0.4rem 0.4rem 3rem;
+}
+
+.inputContainerNewUser{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.inputContainerNewUser label{
+  margin: 0 .4rem 0.4rem 3rem;
+ 
+}
+
+.inputContainerNewUser input{
+  margin: 0rem 1rem 0 0; 
+  width: 80%;
+  height: 25px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  padding-left: 0.5rem;
+}
+
+.inputContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inputContainer label{
+  margin: 0 0.4rem 0 3rem;
+}
+
+.inputContainer input{
+  width: 80%;
+  height: 25px;
+  margin: 0.4rem 0 0.4rem 0;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(241, 241, 241);
+  padding-left: 0.5rem;
+}
+
+.uploadButton{
+  margin: 0.4rem 0 4.rem rem;
+  width: 80%;
+  height: 40px;
+  background-color: rgb(110, 187, 133);
+  border-radius: 10px;
+  border: 0;
+  color: white;
+}
+
+
+.UsersList{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(158, 74, 238);
+}
+
+.userCard{
+  /* border: solid 1px darkblue; */
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  width: 70%;
+  border-radius: 1.5rem;
+  background-color: white;
+}
+
+.userData{
+  /* border: solid 1px red; */
+  width: 70%;
+  text-align: left;
+  padding: 0 0 0 4rem;
+}
+
+.buttons{
+  /* border: solid 1px red; */
+  width: 30%;
+  padding: 4.5rem 0 4rem 0;
+  
+}
+
+.buttons button{
+  margin: 0.2rem;
+  border: 0;
+  background-color: transparent;
+}
